@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laboral </title>
+</head>
+
+<body>
+
+    <script>
+        let dia;
+
+
+        do {
+
+            dia = parseInt(prompt('Ingresa el dia segun el numero: Lunes: 1  Martes: 2 miercoles: 3 jueves: 4 Viernes: 5 Sabado: 6 Domingo: 7'));
+
+        if (dia <= 5) {
+            alert('Se trabaja');
+
+        }else{
+            if (dia >= 6  && dia <= 7) {
+                alert('no se trabaja');
+                
+            }else{
+                if (dia >= 8 && dia < 50) {
+            alert('Ya no hay mas dias');
+            
+        }else{
+            if (dia >= 50) {
+                alert('Acabas de encontar un secreto');
+                
+            }
+        }
+            }
+        }   
+        } while (dia <= 8);
+
+        
+
+        
+
+        
+    </script>
+
+</body>
+
+</html>
